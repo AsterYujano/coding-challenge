@@ -1,0 +1,3 @@
+[submodule "scrapper"]
+	path = scrapper
+	url = git@gitlab.com:AsterYujano/scrapper.git
