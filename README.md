@@ -1,8 +1,9 @@
 # Coding Challenge
 
 
-[API](https://gitlab.com/AsterYujano/node-api)
-[Scrapper](https://gitlab.com/AsterYujano/scrapper)
+* [API](https://gitlab.com/AsterYujano/node-api)
+
+* [Scrapper](https://gitlab.com/AsterYujano/scrapper)
 
 
 ## Getting started
