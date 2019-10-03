@@ -1,6 +1,9 @@
-# Coding coding-challenge
+# Coding Challenge
 
-Coding challenge for DevOps position
+
+[API](https://gitlab.com/AsterYujano/node-api)
+[Scrapper](https://gitlab.com/AsterYujano/scrapper)
+
 
 ## Getting started
 
