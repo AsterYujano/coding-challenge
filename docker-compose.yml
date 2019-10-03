@@ -4,6 +4,8 @@ services:
     mongo:
         image: mongo:3.4.23
         restart: always
+        volumes:
+            - db-data:/data/db
         ports:
             - 27017:27017
         environment:
@@ -20,3 +22,6 @@ services:
             DB_CONNECTION: mongodb://root:example@mongo:27017/products?authSource=admin
             PORT: 8181
             RESULTS_LIMIT: 25
+
+volumes:
+    db-data:
