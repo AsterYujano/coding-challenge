@@ -81,7 +81,7 @@ As I was workin with NodeJS, I thought it could be interesting to try MongoDB da
 
 ### AWS Cloud
 
-To deploy those services in the cloud (AWS for example), it makes sense to run the scrapper in a lambda as it will probably be excuted only once or two a day.
+To deploy those services in the cloud (AWS for example), it makes sense to run the scrapper in a lambda as it will probably be excuted only once or twice a day.
 
 The API & DB could be placed in containers with Amazon Elastic Container Service (ECS) to be fully accessible.
 
