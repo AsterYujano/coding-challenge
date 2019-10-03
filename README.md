@@ -1,9 +1,5 @@
 # Coding coding-challenge
 
-## Todo
-
-- [ ] Add doc to change password in Docker-compose
-
 Coding challenge for DevOps position
 
 ## Getting started
@@ -18,7 +14,7 @@ git clone --recursive git@gitlab.com:AsterYujano/coding-challenge.git
 > 2 nodejs applications & 1 database.
 > The 2 applications have their own repository, they are included into that project thanks to git submodules.
 
-To launch the database and the API:
+### To launch the database and the API:__
 
 ```
 docker-compose up
@@ -28,7 +24,7 @@ docker-compose up
 
 If you want to run the project without docker, please use `.env` file with the correct variables (see `.env.example` as example).
 
-To start the scrapper, look at the README.ME in the scrapper repository.
+### To start the scrapper, look at the README.ME in the scrapper repository.
 
 ## Note
 
