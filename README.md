@@ -5,6 +5,8 @@
 
 * [Scrapper](https://gitlab.com/AsterYujano/scrapper)
 
+![coding challenge architecture](https://gitlab.com/AsterYujano/coding-challenge/blob/master/archi.png)
+
 
 ## Getting started
 
@@ -76,3 +78,10 @@ If in the future the API/database needs to support more requests and to be run i
 No information about scaling or number of requests were provided, so there are no constraints about it.
 
 As I was workin with NodeJS, I thought it could be interesting to try MongoDB database.
+
+### AWS Cloud
+
+To deploy those services in the cloud (AWS for example), it makes sense to run the scrapper in a lambda as it will probably be excuted only once or two a day.
+
+The API & DB could be placed in containers with Amazon Elastic Container Service (ECS) to be fully accessible.
+
