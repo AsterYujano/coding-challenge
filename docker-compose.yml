@@ -1,0 +1,22 @@
+version: '3.7'
+
+services:
+    mongo:
+        image: mongo:3.4.23
+        restart: always
+        ports:
+            - 27017:27017
+        environment:
+            MONGO_INITDB_ROOT_USERNAME: "root"
+            MONGO_INITDB_ROOT_PASSWORD: "example"
+
+    api:
+        build: "./node-api/"
+        ports:
+            - 8181:8181
+        depends_on:
+            - mongo
+        environment:
+            DB_CONNECTION: mongodb://root:example@mongo:27017/test?authSource=admin
+            PORT: 8181
+            RESULTS_LIMIT: 25
