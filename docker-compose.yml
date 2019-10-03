@@ -17,6 +17,6 @@ services:
         depends_on:
             - mongo
         environment:
-            DB_CONNECTION: mongodb://root:example@mongo:27017/test?authSource=admin
+            DB_CONNECTION: mongodb://root:example@mongo:27017/products?authSource=admin
             PORT: 8181
             RESULTS_LIMIT: 25

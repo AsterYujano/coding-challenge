@@ -18,8 +18,22 @@ git clone --recursive git@gitlab.com:AsterYujano/coding-challenge.git
 > 2 nodejs applications & 1 database.
 > The 2 applications have their own repository, they are included into that project thanks to git submodules.
 
+To launch the database and the API:
+
 ```
 docker-compose up
+```
+
+`ENV` variables are defined in the docker-compose.yml file.
+
+If you want to run the project without docker, please use `.env` file with the correct variables (see `.env.example` as example).
+
+## Note
+
+If you need to pull new changes from submodule reposotories, run:
+
+```
+git submodule update --recursive --remote
 ```
 
 
