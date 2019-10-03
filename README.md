@@ -28,6 +28,8 @@ docker-compose up
 
 If you want to run the project without docker, please use `.env` file with the correct variables (see `.env.example` as example).
 
+To start the scrapper, look at the README.ME in the scrapper repository.
+
 ## Note
 
 If you need to pull new changes from submodule reposotories, run:
@@ -58,3 +60,19 @@ Please document how we can run it.
 
 Please shortly document your justification of technology / mechanism choice.
 ```
+
+## F.A.Q.
+
+### Why 3 "micro-services"?
+
+As the stability of downstream services may not be affected by the stability of the upstream services, the architecture splits in different parts the application.
+
+Even if the scrapper is down or finished to run, the API is still fully available as well as the database.
+
+If in the future the API/database needs to support more requests and to be run in different containers (for load-balancing, etc), it is possible. While the scrapper is untouched.
+
+### Why MongoDB?
+
+No information about scaling or number of requests were provided, so there are no constraints about it.
+
+As I was workin with NodeJS, I thought it could be interesting to try MongoDB database.
