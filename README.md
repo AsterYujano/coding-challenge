@@ -14,7 +14,7 @@ git clone --recursive git@gitlab.com:AsterYujano/coding-challenge.git
 > 2 nodejs applications & 1 database.
 > The 2 applications have their own repository, they are included into that project thanks to git submodules.
 
-### To launch the database and the API:__
+### To launch the database and the API:
 
 ```
 docker-compose up
