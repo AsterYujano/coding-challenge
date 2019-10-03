@@ -5,7 +5,7 @@
 
 * [Scrapper](https://gitlab.com/AsterYujano/scrapper)
 
-![coding challenge architecture](https://gitlab.com/AsterYujano/coding-challenge/blob/master/archi.png)
+![coding challenge architecture](archi.png)
 
 
 ## Getting started
