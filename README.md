@@ -1,9 +1,9 @@
 # Coding Challenge
 
 
-* [API](https://gitlab.com/AsterYujano/node-api)
+* [API](https://github.com/AsterYujano/node-api)
 
-* [Scrapper](https://gitlab.com/AsterYujano/scrapper)
+* [Scrapper](https://github.com/AsterYujano/scrapper)
 
 ![coding challenge architecture](archi.png)
 
