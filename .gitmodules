@@ -1,6 +1,6 @@
 [submodule "scrapper"]
 	path = scrapper
-	url = git@gitlab.com:AsterYujano/scrapper.git
+	url = git@github.com:AsterYujano/scrapper.git
 [submodule "node-api"]
 	path = node-api
-	url = git@gitlab.com:AsterYujano/node-api.git
+	url = git@github.com:AsterYujano/node-api.git
